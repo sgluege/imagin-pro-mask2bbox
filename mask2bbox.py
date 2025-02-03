@@ -60,7 +60,7 @@ mask_path = project_path + '/data/masks/' # define path to MT labels
 masks_filenames = os.listdir(mask_path)
 
 # load a mask image
-i = 0
+i = 1
 mask_image_path = os.path.join(mask_path, masks_filenames[i])
 mask_image = cv2.imread(mask_image_path, cv2.IMREAD_UNCHANGED)
 
